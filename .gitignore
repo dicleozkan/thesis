@@ -1,0 +1,37 @@
+﻿# Python gecici dosyalari
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Python sanal ortamlar
+.venv/
+venv/
+env/
+
+# Jupyter gecici dosyalari
+.ipynb_checkpoints/
+
+# Gizli bilgiler
+.env
+.env.*
+
+# Model agirliklari ve buyuk dosyalar
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.bin
+
+# Egitim ciktilari ve checkpoint dosyalari
+checkpoints/
+checkpoint-*/
+runs/
+wandb/
+
+# Ham veri dosyalari: GitHub'a yukleme
+data/raw/*
+
+# Isletim sistemi dosyalari
+.DS_Store
+Thumbs.db
+desktop.ini
