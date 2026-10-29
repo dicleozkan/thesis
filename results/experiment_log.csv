@@ -1,0 +1,2 @@
+experiment_id,date,base_model,peft_method,quantization,dataset_version,train_samples,validation_samples,seed,epochs,learning_rate,lora_r,lora_alpha,batch_size,gradient_accumulation,context_length,training_time,peak_vram,energy_kwh,co2_kg,tr_mmlu_accuracy,notes
+LORA_PILOT_001,2026-10-29 17:10:49,Qwen/Qwen2.5-3B-Instruct,LoRA,None (FP16),pilot_dataset_v1,50,0,42,1,0.0002,8,16,1,4,512,21.51,5.904,0.000341844709138105,9.9835586553302e-05,,50 sentetik Türkçe soru-cevap örneği; tek epoch LoRA teknik pilotu; inference testi başarılı; bilimsel performans değerlendirmesi yapılmadı.
