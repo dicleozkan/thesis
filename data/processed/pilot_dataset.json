@@ -1,0 +1,252 @@
+[
+  {
+    "id": "PILOT_001",
+    "instruction": "Yapay zekâ nedir?",
+    "response": "Yapay zekâ, bilgisayar sistemlerinin öğrenme, akıl yürütme ve problem çözme gibi görevleri yerine getirmesini amaçlayan bir alandır."
+  },
+  {
+    "id": "PILOT_002",
+    "instruction": "Makine öğrenmesi nedir?",
+    "response": "Makine öğrenmesi, bilgisayarların verilerden örüntüler öğrenerek tahmin veya karar üretmesini sağlayan yöntemler bütünüdür."
+  },
+  {
+    "id": "PILOT_003",
+    "instruction": "Derin öğrenme nedir?",
+    "response": "Derin öğrenme, çok katmanlı yapay sinir ağları kullanan bir makine öğrenmesi yaklaşımıdır."
+  },
+  {
+    "id": "PILOT_004",
+    "instruction": "Büyük dil modeli nedir?",
+    "response": "Büyük dil modeli, büyük miktarda metin üzerinde eğitilerek metin anlama ve üretme görevleri gerçekleştiren bir modeldir."
+  },
+  {
+    "id": "PILOT_005",
+    "instruction": "Doğal dil işleme nedir?",
+    "response": "Doğal dil işleme, bilgisayarların insan dilini analiz etmesi, anlamlandırması ve üretmesiyle ilgilenir."
+  },
+  {
+    "id": "PILOT_006",
+    "instruction": "Eğitim verisi ne işe yarar?",
+    "response": "Eğitim verisi, modelin parametrelerini öğrenmesi için kullanılan örneklerden oluşur."
+  },
+  {
+    "id": "PILOT_007",
+    "instruction": "Test verisi neden ayrılır?",
+    "response": "Test verisi, eğitim sırasında kullanılmayan örneklerle modelin performansını değerlendirmek için ayrılır."
+  },
+  {
+    "id": "PILOT_008",
+    "instruction": "Doğrulama verisi ne için kullanılır?",
+    "response": "Doğrulama verisi, eğitim sürecinde model ayarlarını değerlendirmek ve seçim yapmak için kullanılır."
+  },
+  {
+    "id": "PILOT_009",
+    "instruction": "Aşırı öğrenme nedir?",
+    "response": "Aşırı öğrenme, modelin eğitim verisine fazla uyum sağlayıp yeni verilerde daha kötü sonuç vermesidir."
+  },
+  {
+    "id": "PILOT_010",
+    "instruction": "Genelleme ne demektir?",
+    "response": "Genelleme, modelin eğitimde görmediği örneklerde de başarılı sonuçlar üretebilmesidir."
+  },
+  {
+    "id": "PILOT_011",
+    "instruction": "Fine-tuning nedir?",
+    "response": "Fine-tuning, önceden eğitilmiş bir modelin belirli bir görev veya veri kümesi için ek eğitimden geçirilmesidir."
+  },
+  {
+    "id": "PILOT_012",
+    "instruction": "Full fine-tuning nedir?",
+    "response": "Full fine-tuning yaklaşımında önceden eğitilmiş modelin eğitilebilir parametrelerinin tamamı güncellenir."
+  },
+  {
+    "id": "PILOT_013",
+    "instruction": "PEFT nedir?",
+    "response": "PEFT, bir modelin tüm parametrelerini güncellemek yerine az sayıda parametreyi eğiterek uyarlama yapmayı amaçlar."
+  },
+  {
+    "id": "PILOT_014",
+    "instruction": "LoRA nedir?",
+    "response": "LoRA, model ağırlıklarındaki güncellemeyi düşük ranklı matrislerle temsil ederek eğitilebilir parametre sayısını azaltır."
+  },
+  {
+    "id": "PILOT_015",
+    "instruction": "LoRA neden kullanılır?",
+    "response": "LoRA, model uyarlamasında gereken eğitilebilir parametre ve bellek miktarını azaltmak amacıyla kullanılır."
+  },
+  {
+    "id": "PILOT_016",
+    "instruction": "LoRA rank değeri neyi belirtir?",
+    "response": "Rank değeri, LoRA güncellemesinde kullanılan düşük ranklı matrislerin boyutunu belirler."
+  },
+  {
+    "id": "PILOT_017",
+    "instruction": "lora_alpha ne işe yarar?",
+    "response": "lora_alpha, LoRA güncellemesinin ölçeklendirilmesinde kullanılan bir hiperparametredir."
+  },
+  {
+    "id": "PILOT_018",
+    "instruction": "target_modules neyi belirler?",
+    "response": "target_modules, LoRA katmanlarının modelin hangi modüllerine uygulanacağını belirtir."
+  },
+  {
+    "id": "PILOT_019",
+    "instruction": "QLoRA nedir?",
+    "response": "QLoRA, kuantize edilmiş bir temel model üzerinde LoRA adaptörlerini eğitmeye yönelik bir yaklaşımdır."
+  },
+  {
+    "id": "PILOT_020",
+    "instruction": "4-bit kuantizasyon ne sağlar?",
+    "response": "4-bit kuantizasyon, ağırlıkları daha düşük bit genişliğiyle temsil ederek modelin bellek gereksinimini azaltabilir."
+  },
+  {
+    "id": "PILOT_021",
+    "instruction": "NF4 nedir?",
+    "response": "NF4, kuantizasyon için tasarlanmış ve ağırlıkların dağılımını dikkate alan 4-bit bir veri biçimidir."
+  },
+  {
+    "id": "PILOT_022",
+    "instruction": "Double quantization nedir?",
+    "response": "Double quantization, kuantizasyon sabitlerinin kendilerini de kuantize ederek bellek kullanımını azaltmayı amaçlar."
+  },
+  {
+    "id": "PILOT_023",
+    "instruction": "DoRA nedir?",
+    "response": "DoRA, ağırlık güncellemesini büyüklük ve yön bileşenlerine ayırarak model uyarlaması yapan bir yöntemdir."
+  },
+  {
+    "id": "PILOT_024",
+    "instruction": "QDoRA ne anlama gelir?",
+    "response": "QDoRA, kuantize edilmiş temel model üzerinde DoRA yaklaşımını kullanmayı ifade eder."
+  },
+  {
+    "id": "PILOT_025",
+    "instruction": "Temel model nedir?",
+    "response": "Temel model, belirli bir göreve uyarlanmadan önce genel veriler üzerinde önceden eğitilmiş modeldir."
+  },
+  {
+    "id": "PILOT_026",
+    "instruction": "Adaptör nedir?",
+    "response": "Adaptör, temel modelin tamamını değiştirmeden görev uyarlaması için eğitilen ek parametrelerdir."
+  },
+  {
+    "id": "PILOT_027",
+    "instruction": "Epoch nedir?",
+    "response": "Epoch, eğitim verilerinin model tarafından bir kez tamamen işlenmesini ifade eder."
+  },
+  {
+    "id": "PILOT_028",
+    "instruction": "Batch size nedir?",
+    "response": "Batch size, bir eğitim adımında işlenen örnek sayısını belirtir."
+  },
+  {
+    "id": "PILOT_029",
+    "instruction": "Gradient accumulation nedir?",
+    "response": "Gradient accumulation, birden fazla küçük grubun gradyanlarını biriktirerek daha büyük bir etkili batch oluşturur."
+  },
+  {
+    "id": "PILOT_030",
+    "instruction": "Learning rate nedir?",
+    "response": "Learning rate, optimizasyon sırasında model parametrelerinin ne büyüklükte güncelleneceğini etkiler."
+  },
+  {
+    "id": "PILOT_031",
+    "instruction": "Loss nedir?",
+    "response": "Loss, modelin tahminleri ile hedef çıktılar arasındaki hatayı ölçen bir amaç fonksiyonudur."
+  },
+  {
+    "id": "PILOT_032",
+    "instruction": "Optimizer ne işe yarar?",
+    "response": "Optimizer, hesaplanan gradyanları kullanarak model parametrelerini günceller."
+  },
+  {
+    "id": "PILOT_033",
+    "instruction": "GPU eğitimde neden kullanılır?",
+    "response": "GPU, paralel hesaplama kapasitesi sayesinde birçok derin öğrenme işlemini hızlandırabilir."
+  },
+  {
+    "id": "PILOT_034",
+    "instruction": "VRAM nedir?",
+    "response": "VRAM, grafik işlemcisinin kullandığı bellektir ve model ağırlıklarıyla eğitim ara değerlerini saklamak için kullanılır."
+  },
+  {
+    "id": "PILOT_035",
+    "instruction": "Çıkarım (inference) nedir?",
+    "response": "Çıkarım, eğitilmiş bir modelin yeni girdiler için çıktı üretmesi sürecidir."
+  },
+  {
+    "id": "PILOT_036",
+    "instruction": "Token nedir?",
+    "response": "Token, dil modelinin metni işlemek için kullandığı birimdir; bir kelimenin tamamı veya bir parçası olabilir."
+  },
+  {
+    "id": "PILOT_037",
+    "instruction": "Tokenizasyon nedir?",
+    "response": "Tokenizasyon, metnin modelin işleyebileceği token birimlerine dönüştürülmesidir."
+  },
+  {
+    "id": "PILOT_038",
+    "instruction": "Attention mekanizması ne yapar?",
+    "response": "Attention mekanizması, modelin girdi içindeki farklı konumların birbiriyle ilişkisini hesaba katmasına yardımcı olur."
+  },
+  {
+    "id": "PILOT_039",
+    "instruction": "Transformer nedir?",
+    "response": "Transformer, attention mekanizmasını temel alan ve modern dil modellerinde yaygın kullanılan bir sinir ağı mimarisidir."
+  },
+  {
+    "id": "PILOT_040",
+    "instruction": "Halüsinasyon nedir?",
+    "response": "Dil modeli halüsinasyonu, modelin doğruymuş gibi sunduğu ancak gerçekte yanlış veya desteklenmeyen bilgi üretmesidir."
+  },
+  {
+    "id": "PILOT_041",
+    "instruction": "Accuracy nedir?",
+    "response": "Accuracy, doğru tahminlerin toplam tahmin sayısına oranıdır."
+  },
+  {
+    "id": "PILOT_042",
+    "instruction": "Precision nedir?",
+    "response": "Precision, pozitif olarak tahmin edilen örneklerin ne kadarının gerçekten pozitif olduğunu ölçer."
+  },
+  {
+    "id": "PILOT_043",
+    "instruction": "Recall nedir?",
+    "response": "Recall, gerçekte pozitif olan örneklerin ne kadarının doğru yakalandığını ölçer."
+  },
+  {
+    "id": "PILOT_044",
+    "instruction": "F1 skoru nedir?",
+    "response": "F1 skoru, precision ve recall değerlerinin harmonik ortalamasıdır."
+  },
+  {
+    "id": "PILOT_045",
+    "instruction": "Benchmark nedir?",
+    "response": "Benchmark, modelleri belirli görevler ve ortak değerlendirme ölçütleri üzerinden karşılaştırmak için kullanılan test düzenidir."
+  },
+  {
+    "id": "PILOT_046",
+    "instruction": "TR-MMLU ne amaçla kullanılabilir?",
+    "response": "TR-MMLU, Türkçe çoktan seçmeli sorular üzerinden dil modellerinin bilgi ve akıl yürütme performansını değerlendirmek için kullanılabilir."
+  },
+  {
+    "id": "PILOT_047",
+    "instruction": "CodeCarbon neyi ölçmeye yardımcı olur?",
+    "response": "CodeCarbon, hesaplama çalışmaları sırasında enerji tüketimini ve tahmini karbon emisyonlarını izlemeye yardımcı olur."
+  },
+  {
+    "id": "PILOT_048",
+    "instruction": "Deney günlüğü neden tutulur?",
+    "response": "Deney günlüğü, model ayarlarını, veri sürümünü, süreyi ve ölçüm sonuçlarını kayıt altına alarak deneylerin izlenebilirliğini artırır."
+  },
+  {
+    "id": "PILOT_049",
+    "instruction": "Rastgele tohum (seed) ne işe yarar?",
+    "response": "Rastgele tohum, rastgeleliğe dayalı işlemlerin tekrarlanabilirliğini artırmaya yardımcı olur."
+  },
+  {
+    "id": "PILOT_050",
+    "instruction": "Tekrarlanabilir deney ne demektir?",
+    "response": "Tekrarlanabilir deney, kullanılan veri, ayarlar ve ortam kaydedilerek benzer koşullarda yeniden çalıştırılabilen deneydir."
+  }
+]
